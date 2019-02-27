@@ -12,4 +12,6 @@ class Doctor
   def self.all
     @@all
   end
+
+  def
 end #END OF CLASS
