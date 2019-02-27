@@ -11,4 +11,6 @@ class Genre
     @@all
   end
 
+  def song
+
 end
