@@ -13,5 +13,5 @@ class Doctor
     @@all
   end
 
-  def
+  def appointments(date, patient, self)
 end #END OF CLASS
