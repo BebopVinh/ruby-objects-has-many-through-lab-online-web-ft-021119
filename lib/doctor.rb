@@ -1,12 +1,13 @@
 require 'pry'
 
 class Doctor
-  attr_reader :name
+  attr_reader :name, :appointments
   @@all = []
 
   def initialize(name)
     @name = name
     @@all << self
+    @appointments = []
   end
 
   def new_appointment(date, patient)
