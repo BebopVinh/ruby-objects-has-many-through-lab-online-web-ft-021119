@@ -19,7 +19,8 @@ class Artist
   end
 
   def songs
-    Song.all.select {|song| song.artist == self}
+    x = Song.all.select {|song| song.artist == self}
+    binding.pry
   end
 
   def genres
